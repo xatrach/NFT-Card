@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --soft-blue: hsl(215,51%,70%);
+    --cyan: hsl(178,100%,50%);
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    background: var(--very-dark-blue-main);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.hero {
+    background: var(--very-dark-blue-card);
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px yellow;
+}
+
+.container {
+    margin: 1em;
+    width: 350px;
+}
+
+.nft-image {
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.container h1 {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.container p {
+    color: var(--soft-blue);
+}
+
+.details {
+    width: 90%;
+}
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ethereum {
+    color: var(--cyan);
+
+}
+
+hr {
+    height: 1px;
+    background-color: var(--very-dark-blue-line);
+    border: none;
+    margin: 20px;
+}
+
+.jules-paragraph {
+    color: var(--soft-blue);
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: .8px;
+    font-weight: lighter;
+}
+
+.jules-paragraph span {
+    color: white;
+}
+
+.jules-img {
+  width: 40px;
+  margin-left: 18px;
+  margin-right: 9px;
+  border: 1px solid white;
+  border-radius: 75px;
+}
